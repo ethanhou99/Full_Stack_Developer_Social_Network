@@ -1,0 +1,36 @@
+{
+  "name": "fullstackreact",
+  "version": "1.0.0",
+  "description": "Full stack practice, social network for developers",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanhou99/Full_Stack_Developer_Social_Network.git"
+  },
+  "keywords": [
+    "fullstack"
+  ],
+  "author": "Ethan Hou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethanhou99/Full_Stack_Developer_Social_Network/issues"
+  },
+  "homepage": "https://github.com/ethanhou99/Full_Stack_Developer_Social_Network#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
